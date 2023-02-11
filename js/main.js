@@ -1,7 +1,7 @@
 /*
-Theme: Smeshnie Ceny
+Theme: Industry Company KZ
 Author: Andrey Galkin
-Version: 2.0
+Version: 1.0
 */
 
 //
@@ -10,33 +10,15 @@ Version: 2.0
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    const blogSwiper = new Swiper('.blogSwiper', {
-        slidesPerView: 1.05,
-        loop: true,
-        autoplay: {
-            delay: 3500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '#blogSwiper-next',
-            prevEl: '#blogSwiper-prev',
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 3,
-            },
-        },
-    });
+    //////////////////////////////////////////////////////////////////
+    // [ Слайдер на странице index.html ]
 
-    const magazinSwiper = new Swiper('.magazinSwiper', {
-        slidesPerView: 1.05,
+    const heroSwiper = new Swiper('.heroSwiper', {
+        spaceBetween: 24,
         loop: true,
+        grabCursor: true,
         autoplay: {
-            delay: 3500,
+            delay: 2500,
             disableOnInteraction: false,
         },
         pagination: {
@@ -44,16 +26,8 @@ window.addEventListener('DOMContentLoaded', event => {
             clickable: true,
         },
         navigation: {
-            nextEl: '#magazinSwiper-next',
-            prevEl: '#magazinSwiper-prev',
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 3,
-            },
-            992: {
-                slidesPerView: 4,
-            },
+            nextEl: '#heroSwiper-next',
+            prevEl: '#heroSwiper-prev',
         },
     });
 
