@@ -17,18 +17,18 @@
 
 <body>
 
-    <header class="header py-2">
+    <!-- Шапка -->
+    <header class="header py-5 bg-dark">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center justify-content-between">
                 <div class="col-lg-4">
                     <img src="img/logo.png.webp" alt="">
                 </div>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
-                    <ul class="list-unstyled">
-                        <li><a href="#">online@mail.ru</a></li>
-                        <li><a href="#">8 (800) 555-23-45</a></li>
-                        <li><a href="#">8 (495) 111-23-45</a></li>
+                <div class="col-lg-6">
+                    <ul class="list-inline text-end mb-0">
+                        <li class="list-inline-item"><a href="#"><i class="bx bxs-envelope"></i> online@mail.ru</a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bx bxs-phone"></i> 8 (800) 555-23-45</a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bx bxs-phone"></i> 8 (495) 111-23-45</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,9 +36,10 @@
     </header>
 
     <!-- Главный контейнер -->
-    <main class="main py-5">
+    <main class="main py-5 bg-light">
 
-        <section class="section py-5">
+        <!-- Первый экран -->
+        <section class="section py-5 mt-n5">
             <div class="container">
                 <div class="position-relative p-md-2">
                     <div class="swiper heroSwiper navigation-outside">
@@ -72,6 +73,176 @@
                     </div>
                     <div class="swiper-button-next d-none d-lg-flex" id="heroSwiper-next"></div>
                     <div class="swiper-button-prev d-none d-lg-flex" id="heroSwiper-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- О нас -->
+        <section class="section py-5">
+            <div class="container">
+                <div class="mb-5">
+                    <h2 class="h1">Кто мы и для кого работаем</h2>
+                </div>
+                <p>Компания Элснаб была основана в 2005 году и является одной из крупнейших электротехнических компаний в области поставок низковольтного оборудования. 
+                    В 2010 году компания стала эксклюзивным дистрибьютором и сервис-партнером чешского завода OEZ (Siemens AG) в России.
+                    На сегодняшний день в продуктовом портфеле компании более 10 брендов, а поставки осуществляются во все регионы РФ и страны ближайшего зарубежья.
+                    Электротехническое оборудование "Элснаб" приобретают крупнейшие предприятия и организации страны, работающие в различных отраслях хозяйства: в электроэнергетике, атомной, лесной и химической промышленности, агропромышленном комплексе, машиностроении и судостроении, сферах связи, IT и др.</p>
+            </div>
+        </section>
+
+        <!-- Преимущества -->
+        <section class="section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="mb-5">
+                            <h2 class="h1">Наши преимущества</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
+                        <article class="card card-advantages shadow-sm h-100">
+                            <img class="card-img-top" src="img/advantages-01.png" alt="Экономия на оборудовании до 30%">
+                            <div class="card-body">
+                                <p class="card-title">Экономия на оборудовании до 30%</p>
+                                <p class="small text-muted">По сравнению с европейскими аналогами экономия на оборудовании достигает 30%</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card card-advantages shadow-sm h-100">
+                            <img class="card-img-top" src="img/advantages-01.png" alt="Экономия на оборудовании до 30%">
+                            <div class="card-body">
+                                <p class="card-title">Широкий складской запас</p>
+                                <p class="small text-muted">Оборудование доступно в наличии на складе в Москве, отлаженная логистика гарантирует быструю отгрузку</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card card-advantages shadow-sm h-100">
+                            <img class="card-img-top" src="img/advantages-01.png" alt="Экономия на оборудовании до 30%">
+                            <div class="card-body">
+                                <p class="card-title">Оперативный сервис</p>
+                                <p class="small text-muted">Обработка запросов и расчет проектов осуществляется в течение 3 часов</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Партнёры -->
+        <section class="section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="mb-5">
+                            <h2 class="h1">Наши партнёры</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-01.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-02.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-03.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-04.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-05.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-06.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-07.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <img src="img/partner-08.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="mb-5">
+                            <h2 class="h1">Контакты</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-lg-4">
+                        <article class="card card-contact shadow-sm py-2 mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start">
+                                    <img class="me-3" src="img/phone.png.webp" alt="" width="34" height="34">
+                                    <div class="d-flex flex-column">
+                                        <p class="fs-4 mb-0"><a class="stretched-link" href="#">online@mail.ru</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card card-contact shadow-sm py-2 mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start">
+                                    <img class="me-3" src="img/phone.png.webp" alt="">
+                                    <div class="d-flex flex-column">
+                                        <p class="fs-4 mb-0"><a class="stretched-link" href="#">8 (495) 598-12-22</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card card-contact shadow-sm py-2 mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start">
+                                    <img class="me-3" src="img/map-marker.png.webp" alt="" width="28" height="34">
+                                    <div class="d-flex flex-column">
+                                        <p class="small mb-0"><a class="stretched-link" href="#">111141, Казахстан, Астана<br> 3-й проезд Перова поля, дом 8 стр.11</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card card-contact shadow-sm py-2 mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start">
+                                    <img class="me-3" src="img/map-marker.png.webp" alt="" width="28" height="34">
+                                    <div class="d-flex flex-column">
+                                        <p class="small mb-0">График работы<br> с понедельника по пятницу с 9.00 до 18.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-7">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160182.53790847273!2d71.33930786685511!3d51.1480774221867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580c47db54609%3A0x97f9148dddb19228!2z0JDRgdGC0LDQvdCwIDAyMDAwMCwg0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1676157155896!5m2!1sru!2sru" width="100%" height="400" class="rounded-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </section>

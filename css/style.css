@@ -1,7 +1,7 @@
 /*!
-Theme: Smeshnie Ceny
+Theme: Industry Company KZ
 Author: Andrey Galkin
-Version: 2.0
+Version: 1.0
 */
 
 /*------------------------------------------------------------------
@@ -329,11 +329,11 @@ img {
     font-weight: 700;
 }
 
-.fz-17 {
+.fs-17 {
     font-size: 17px;
 }
 
-.fz-12 {
+.fs-12 {
     font-size: 12px;
 }
 
@@ -383,10 +383,6 @@ img {
     color: var(--color-primary-1);
 }
 
-.color-deep-green-hover:hover {
-    color: var(--color-primary-1);
-}
-
 .color-gray-hover:hover {
     color: var(--color-gray);
 }
@@ -405,6 +401,10 @@ img {
 
 .b-color-primary {
     border-color: var(--color-primary-1) !important;
+}
+
+.mt-n5 {
+    margin-top: -3rem;
 }
 
 .nav {
@@ -701,103 +701,6 @@ img {
     --bs-accordion-btn-icon-transform: rotate(-225deg);
 }
 
-.cta-video {
-    position: relative;
-    height: 100%;
-    min-height: 215px;
-}
-
-.cta-video .btn-play {
-    position: absolute;
-    z-index: 3;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    box-sizing: content-box;
-    display: block;
-    width: 32px;
-    height: 44px;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    padding: 18px 20px 18px 28px;
-}
-
-.cta-video .btn-play span {
-    display: block;
-    position: relative;
-    z-index: 3;
-    width: 0;
-    height: 0;
-    border-left: 32px solid var(--color-black);
-    border-top: 22px solid transparent;
-    border-bottom: 22px solid transparent;
-}
-
-.cta-video .btn-play:before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 100px;
-    height: 100px;
-    background: var(--color-primary-1);
-    border-radius: 50%;
-    animation: pulse-border 1500ms ease-out infinite;
-}
-
-.cta-video .btn-play:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 100px;
-    height: 100px;
-    background: var(--color-primary-1);
-    border-radius: 50%;
-    transition: all 200ms;
-}
-
-@keyframes pulse-border {
-    0% {
-        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-        opacity: 0;
-    }
-}
-
-.meta-metro, .meta-address {
-    position: relative;
-    padding-left: 30px;
-}
-
-.meta-metro:before, .meta-address:before {
-    content: '';
-    position: absolute;
-    top: 3px;
-    left: 0;
-    width: 20px;
-    height: 20px;
-}
-
-.meta-metro:before {
-    content: url(../img/mosmetro.svg);
-}
-
-.meta-address:before {
-    content: url(../img/location.svg);    
-}
-
 .swiper.navigation-outside~.swiper-button-prev {
     left: -50px;
 }
@@ -806,17 +709,22 @@ img {
     right: -50px;
 }
 
+.card.card-advantages {
+    --bs-card-border-width: 0;
+    --bs-card-cap-padding-y: 1rem;
+}
+
+.card.card-contact {
+    --bs-card-border-width: 0;
+    --bs-card-cap-padding-y: 1rem;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ + MEDIA ]*/
 
 @media (min-width: 576px) {}
 
-@media (min-width: 768px) {
-
-    .cta-video {
-        min-height: 410px;
-    }
-}
+@media (min-width: 768px) {}
 
 @media (min-width: 992px) {}
 
