@@ -35,14 +35,14 @@ Version: 1.0
 [ + ROOT ]*/
 
 :root {
-    --color-primary-1: #FEA116;
-    --color-primary-2: #cb8112;
-    --color-primary-1-rgb: 254, 161, 22;
-    --color-primary-2-rgb: 203, 129, 18;
+    --color-primary-1: #0d6efd;
+    --color-primary-2: #6c757d;
+    --color-primary-1-rgb: 13,110,253;
+    --color-primary-2-rgb: 10,88,202;
     --color-black: #120e1e;
     --color-gray: #838189;
     --color-white: #fff;
-    --bs-primary-rgb: 254, 161, 22;
+    --bs-primary-rgb: 13,110,253;
     --ff-main: 'Open Sans', sans-serif;
     --ff-secondary: 'Open Sans', sans-serif;
     --fw-light: 300;
