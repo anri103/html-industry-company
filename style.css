@@ -2,7 +2,6 @@
 @import url("modules/swiper/swiper-bundle.min.css");
 @import url("modules/fancybox/fancybox.css");
 @import url("fonts/bootstrap-icons-1.11.3/bootstrap-icons.min.css");
-/* @import url('fonts/boxicons/boxicons.min.css'); */
 
 @font-face {
     font-family: 'Open Sans';
@@ -682,7 +681,11 @@ svg {
 }
 
 .section {
+    max-width: 1920px;
+    width: 100%;
     padding: 3rem 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .section-heading {
@@ -1133,6 +1136,10 @@ svg {
 
 .section-page-content {
     padding: 0 0 3rem;
+}
+
+.section-page-content .section-heading {
+    max-width: 100%;
 }
 
 /* footer */
