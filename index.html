@@ -1,262 +1,290 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css">
 
     <title>ТОО «РосИнвест» электромонтажное оборудование</title>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <!-- Шапка -->
-    <header class="header py-5 bg-light">
+    <!-- header -->
+    <header class="header">
         <div class="container">
-            <div class="row gy-3 align-items-center justify-content-between">
-                <div class="col-lg-4">
-                    <div class="d-flex flex-column align-items-center align-items-lg-start">
-                        <div class="navbar-brand fw-700 d-inline-flex align-items-center mb-3">
-                            <img class="d-inline-block me-2" src="img/logo.png" alt="Лого ТОО «Rosinvest»" width="50" height="33">
-                            <span class="fs-4">ТОО «Rosinvest»</span>
+            <div class="header-body">
+                <div class="row">
+                    <!-- <div class="header-brand">
+                        <img class="header-brand__logo" src="img/logo.png" alt="Лого ТОО «Rosinvest»">
+                        <span class="header-brand__name">ТОО «Rosinvest»</span>
+                    </div> -->
+                    <div class="header-brand col-50 col-lg-25">
+                        <div class="header-brand-wrapper">
+                            <img class="header-brand__logo" src="img/logo.png" alt="Лого ТОО «РосИнвест»">
+                            <span class="header-brand__name">ТОО «РосИнвест»</span>
                         </div>
-                        <div class="navbar-brand fw-700 d-inline-flex align-items-center mb-3">
-                            <img class="d-inline-block me-2" src="img/logo.png" alt="Лого ТОО «РосИнвест»" width="50" height="33">
-                            <span class="fs-4">ТОО «РосИнвест»</span>
-                        </div>
-                        <a class="fs-4 fw-700 hover-opacity" href="tel:+77081252483">+7 (708) 125-24-83</a>
-                    </div>                  
-                </div>
-                <div class="col-lg-8">
-                    <div class="text-center text-lg-end">
-                        <p class="small mb-2">Электромонтажное оборудование</p>
-                        <p class="small mb-2">Средства и системы охранно-пожарной сигнализации</p>
-                        <p class="small mb-2">Средства и системы контроля и управления доступом</p>
-                        <p class="small mb-2">Источники питания</p>
                     </div>
-                    <!-- <ul class="list-inline text-center text-lg-end mb-0">
-                        <li class="list-inline-item"><a class="fs-4 color-white hover-opacity" href="mailto:kaz20092022@mail.ru">kaz20092022@mail.ru</a></li>
-                        <li class="list-inline-item d-none d-md-inline-block">|</li>
-                        <li class="list-inline-item"><a class="fs-4 color-white hover-opacity" href="tel:+77081252483">+7 (708) 125-24-83</a></li>
-                    </ul> -->
+                    <div class="header-descr col-lg">
+                        <div class="header-descr-wrapper">
+                            <div>Электромонтажное оборудование</div>
+                            <div>Средства и системы охранно-пожарной сигнализации</div>
+                            <div>Средства и системы контроля и управления доступом</div>
+                            <div>Источники питания</div>
+                        </div>
+                    </div>
+                    <div class="header-lang col-lg-auto">
+                        <div class="header-lang-wrapper">
+                            <a href="#" class="header-lang__link link-ru current">RU</a>
+                            <a href="#" class="header-lang__link link-en">EN</a>
+                        </div>
+                    </div>
+                    <div class="header-contacts col-50 col-lg-25">
+                        <div class="header-contacts-wrapper">
+                            <div>
+                                <a href="tel:+77081252483" class="header-contacts__link link-phone">+7 (708) 125-24-83</a>
+                            </div>
+                            <div>
+                                <a href="mailto:kaz20092022@mail.ru" class="btn btn-primary btn-sm">Запросить прайс-лист</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Главный контейнер -->
-    <main class="main py-5">
+    <!-- main -->
+    <main class="main">
 
-        <!-- Первый экран -->
-        <section class="section py-5 mt-n5 bg-light">
+        <!-- section-hero -->
+        <section class="section section-hero">
             <div class="container">
-                <div class="position-relative p-md-2">
-                    <div class="swiper heroSwiper navigation-outside">
-                        <div class="swiper-wrapper mb-5">
+                <div class="section-body">
+                    <div class="swiper heroSwiper">
+                        <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img class="w-100 rounded-4" src="img/slide-01.png" alt="">
+                                <div class="swiper-slide-body">
+                                    <img class="swiper-img" src="img/slide-01.png" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img class="w-100 rounded-4" src="img/slide-02.png" alt="">
+                                <div class="swiper-slide-body">
+                                    <img class="swiper-img" src="img/slide-02.png" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img class="w-100 rounded-4" src="img/slide-03.png" alt="">
+                                <div class="swiper-slide-body">
+                                    <img class="swiper-img" src="img/slide-03.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-about -->
+        <section class="section section-about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <h2 class="section-title">О компании</h2>
+                    <p class="section-subtitle">ТОО «РосИнвест» было основано в 2015 году и является одним из крупнейших в области поставок низковольтного оборудования</p>
+                </div>
+
+                <div class="section-body">
+                    <div class="row">
+                        <div class="col-50 col-lg-30">
+                            <div style="height: 60px;"></div>
+                            <img class="img-fluid" src="img/section-about-01.jpg" alt="">
+                        </div>
+                        <div class="col-50 col-lg-30">
+                            <img class="img-fluid" src="img/section-about-02.jpg" alt="">
+                        </div>
+                        <div class="col-lg-40 order-lg-first">
+                            <div class="section-text">
+                                <p>ТОО «РосИнвест» — инновационная компания, занимающаяся поставкой качественного электротехнического и противопожарного оборудования.</p>
+                                <p>Мы предлагаем широкий ассортимент продукции для обеспечения электробезопасности и пожарной безопасности, включая автоматические выключатели, системы пожарной сигнализации, аварийное освещение и системы управления освещением.</p>
+                                <p>Мы стремимся обеспечить своевременное и эффективное обслуживание клиентов с быстрой доставкой и доставкой, а наша дружная команда обслуживания клиентов всегда готова ответить на любые вопросы или запросы. Благодаря нашим высококачественным продуктам и надежным услугам, мы гарантируем, что ТОО «РосИнвест» удовлетворит все ваши потребности в электрической и пожарной безопасности.</p>
+                                <p><a href="mailto:kaz20092022@mail.ru" class="btn btn-primary btn-lg"><i class="bi bi-paperclip"></i> Запросить прайс-лист</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- section-features -->
+        <section class="section section-features">
+            <div class="container">
+
+                <div class="section-heading">
+                    <h2 class="section-title">Преимущества</h2>
+                    <p class="section-subtitle">Мы следим за качеством нашего оборудования, для нас важна безопасность и повышение эффективности ваших объектов</p>
+                </div>
+
+                <div class="section-body">
+                    <div class="row">
+                        <div class="col-lg-33">
+                            <div class="card card-features">
+                                <div class="image-overlay" style="background-image: url(img/card-features-img-01.jpg);">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-title">Экономия на оборудовании</p>
+                                    <div class="card-text">
+                                        <p>По сравнению с европейскими аналогами экономия на оборудовании достигает 30%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-33">
+                            <div class="card card-features">
+                                <div class="image-overlay" style="background-image: url(img/card-features-img-02.jpg);">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-title">Широкий складской запас</p>
+                                    <div class="card-text">
+                                        <p>Все оборудование в наличии на складе, а отлаженная логистика гарантирует быструю отгрузку</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-33">
+                            <div class="card card-features">
+                                <div class="image-overlay" style="background-image: url(img/card-features-img-03.jpg);">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-title">Оперативный сервис</p>
+                                    <div class="card-text">
+                                        <p>Обработка запросов и расчет проектов осуществляется в течение 10 минут</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section-partners -->
+        <section class="section section-partners">
+            <div class="container">
+
+                <div class="section-heading">
+                    <h2 class="section-title">Партнёры</h2>
+                    <p class="section-subtitle">Проверенные компании, с которыми мы обеспечиваем высокое качество и надежность продукции</p>
+                </div>
+
+                <div class="section-body">
+                    <div class="swiper partnersSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-01.png" alt="Газпром">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-02.png" alt="НЛМК">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-03.png" alt="СУЭК">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-04.png" alt="Магнитогорский металлургический комбинат">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-05.png" alt="Ростех">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-06.png" alt="ИНТЕР РАОЕЭС">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-07.png" alt="Роснефть">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-partner">
+                                    <img class="img-fluid" src="img/partner-08.png" alt="МРСК">
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <div class="swiper-button-next d-none d-lg-flex" id="heroSwiper-next"></div>
-                    <div class="swiper-button-prev d-none d-lg-flex" id="heroSwiper-prev"></div>
                 </div>
+                
+
             </div>
         </section>
 
-        <!-- Кнопка запросить прайс -->
-        <section class="section py-5 mt-n5 bg-light">
+        <!-- section-contacts -->
+        <section class="section section-contacts">
             <div class="container">
-                <div class="text-center">
-                    <a class="btn btn-primary btn-lg" href="mailto:kaz20092022@mail.ru"><i class="bx bx-file"></i> Запросить прайс-лист</a>
-                </div>
-            </div>
-        </section>
+                <div class="section-body">
+                    <div class="row">
 
-        <!-- О нас -->
-        <section class="section py-5">
-            <div class="container">
-                <div class="mb-5">
-                    <h2 class="h1">Кто мы и для кого работаем</h2>
-                </div>
-                <p>ТОО «РосИнвест» было основано в 2015 году и является одним из крупнейших в области поставок низковольтного оборудования. ТОО «РосИнвест» — инновационная компания, занимающаяся поставкой качественного электротехнического и противопожарного оборудования. Наша команда опытных профессионалов предоставит продукты и услуги высочайшего качества, гарантируя, что все наши клиенты получат наилучшие впечатления. Мы предлагаем широкий ассортимент продукции для обеспечения электробезопасности и пожарной безопасности, включая автоматические выключатели, системы пожарной сигнализации, аварийное освещение и системы управления освещением. Наша команда стремится удовлетворить все потребности клиентов, а наш опытный персонал предоставит рекомендации по наилучшему решению любой проблемы безопасности. Мы стремимся обеспечить своевременное и эффективное обслуживание клиентов с быстрой доставкой и доставкой, а наша дружная команда обслуживания клиентов всегда готова ответить на любые вопросы или запросы. Благодаря нашим высококачественным продуктам и надежным услугам, мы гарантируем, что ТОО «РосИнвест» удовлетворит все ваши потребности в электрической и пожарной безопасности.</p>
-            </div>
-        </section>
+                        <div class="col-lg-50">
 
-        <!-- Преимущества -->
-        <section class="section py-5 bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="mb-5">
-                            <h2 class="h1">Наши преимущества</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
-                    <div class="col">
-                        <article class="card card-advantages shadow-sm h-100">
-                            <img class="card-img-top" src="img/advantages-01.png" alt="Экономия на оборудовании до 30%">
-                            <div class="card-body">
-                                <p class="card-title">Экономия на оборудовании до 30%</p>
-                                <p class="small text-muted">По сравнению с европейскими аналогами экономия на оборудовании достигает 30%</p>
+                            <div class="section-heading">
+                                <h2 class="section-title">Контакты</h2>
                             </div>
-                        </article>
-                    </div>
-                    <div class="col">
-                        <article class="card card-advantages shadow-sm h-100">
-                            <img class="card-img-top" src="img/advantages-02.png" alt="Экономия на оборудовании до 30%">
-                            <div class="card-body">
-                                <p class="card-title">Широкий складской запас</p>
-                                <p class="small text-muted">Оборудование доступно в наличии на складе, отлаженная логистика гарантирует быструю отгрузку</p>
+    
+                            <div class="contact-items">
+                                <div class="item-contact">
+                                     <div class="contact-icon">
+                                        <i class="bi bi-telephone"></i>
+                                     </div>
+                                    <div><a href="tel:+77081252483" class="section-contacts__link link-phone">+7 (708) 125-24-83</a></div>
+                                </div>
+                                <div class="item-contact">
+                                     <div class="contact-icon">
+                                        <i class="bi bi-envelope-at"></i>
+                                     </div>
+                                    <div><a href="mailto:kaz20092022@mail.ru" class="section-contacts__link link-email">kaz20092022@mail.ru</a></div>
+                                </div>
+                                <div class="item-contact">
+                                    <div class="contact-icon">
+                                        <i class="bi bi-geo-alt"></i>
+                                    </div>
+                                    <div class="small">Республика Казахстан, 030005, Актюбинская область,<br> Актобе г.а., г. Актобе, район Астана, проспект Абидкайыр Хана, дом 2</div>
+                                </div>
+                                <div class="item-contact">
+                                    <div class="contact-icon">
+                                        <i class="bi bi-alarm"></i>
+                                    </div>
+                                    <div class="small">График работы<br> с понедельника по пятницу с 9:00 до 18:00</div>
+                                </div>
                             </div>
-                        </article>
-                    </div>
-                    <div class="col">
-                        <article class="card card-advantages shadow-sm h-100">
-                            <img class="card-img-top" src="img/advantages-03.png" alt="Экономия на оборудовании до 30%">
-                            <div class="card-body">
-                                <p class="card-title">Оперативный сервис</p>
-                                <p class="small text-muted">Обработка запросов и расчет проектов осуществляется в течение 3 часов</p>
+    
+                        </div>
+
+                        <div class="col-lg-50">
+                            <div class="contact-map-spacer" style="height: 600px;"></div>
+                            <div class="contact-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.9898048799687!2d57.14196573421315!3d50.31078233959759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x418221f56977231f%3A0x9827eddd29af9969!2z0L_RgNC-0YHQvy4g0JDQsdGD0LvRhdCw0LjRgCDRhdCw0L3QsCAyLCDQkNC60YLQvtCx0LUgMDMwMDA3LCDQmtCw0LfQsNGF0YHRgtCw0L0!5e0!3m2!1sru!2sru!4v1676217929672!5m2!1sru!2sru" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        </div>
 
-        <!-- Партнёры -->
-        <section class="section py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="mb-5">
-                            <h2 class="h1">Наши партнёры</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-4 row-cols-2 row-cols-md-2 row-cols-lg-4">
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-01.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-02.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-03.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-04.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-05.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-06.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-07.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="d-flex align-items-center justify-content-center p-3">
-                            <img src="img/partner-08.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Контакты -->
-        <section class="section py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="mb-5">
-                            <h2 class="h1">Контакты</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-lg-5">
-                        <div class="pe-xl-5">
-                            <article class="card card-contact shadow-sm bg-light py-2 mb-3">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-start">
-                                        <img class="me-3" src="img/mail-svgrepo-com.svg" alt="" width="34" height="34">
-                                        <div class="d-flex flex-column">
-                                            <p class="fs-5 fw-700 mb-0"><a class="stretched-link hover-opacity" href="mailto:kaz20092022@mail.ru">kaz20092022@mail.ru</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="card card-contact shadow-sm bg-light py-2 mb-3">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-start">
-                                        <img class="me-3" src="img/phone-svgrepo-com.svg" alt="" width="34" height="34">
-                                        <div class="d-flex flex-column">
-                                            <p class="fs-5 fw-700 mb-0"><a class="stretched-link hover-opacity" href="tel:+77081252483">+7 (708) 125-24-83</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="card card-contact shadow-sm bg-light py-2 mb-3">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-start">
-                                        <img class="me-3" src="img/location-svgrepo-com.svg" alt="" width="34" height="34">
-                                        <div class="d-flex flex-column">
-                                            <p class="small mb-0"><a class="stretched-link color-black hover-opacity" href="https://goo.gl/maps/5tTfWanmuYG8QmzE6">Республика Казахстан, 030005, Актюбинская область,<br> Актобе г.а., г. Актобе, район Астана, проспект Абидкайыр Хана, дом 2</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="card card-contact shadow-sm bg-light py-2 mb-3">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-start">
-                                        <img class="me-3" src="img/time-square-svgrepo-com.svg" alt="" width="34" height="34">
-                                        <div class="d-flex flex-column">
-                                            <p class="small mb-0">График работы<br> с понедельника по пятницу с 9.00 до 18.00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.9898048799687!2d57.14196573421315!3d50.31078233959759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x418221f56977231f%3A0x9827eddd29af9969!2z0L_RgNC-0YHQvy4g0JDQsdGD0LvRhdCw0LjRgCDRhdCw0L3QsCAyLCDQkNC60YLQvtCx0LUgMDMwMDA3LCDQmtCw0LfQsNGF0YHRgtCw0L0!5e0!3m2!1sru!2sru!4v1676217929672!5m2!1sru!2sru" width="100%" height="450" class="rounded-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -264,33 +292,51 @@
 
     </main>
 
-    <!-- Футер -->
-    <footer class="footer py-5 bg-light">
+    <!-- footer -->
+    <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="text-center text-lg-start">
-                        <p class="small text-uppercase">Товарищество с ограниченной ответственностью «РосИнвест»</p>
-                        <p class="small">Принимаем оплату в российских рублях (RUB), казахстанских тенге (KZT) или долларах США (USD)</p>
-                        <p class="small">Банк АО "Банк ЦентрКредит"</p>
-                        <p class="small">БИК KCJBKZKX</p>
-                        <p class="small mb-0"><strong>Валюта KZT</strong></p>
-                        <p class="small">Номер счета KZ118562203125368494</p>
-                        <p class="small mb-0"><strong>Валюта RUB</strong></p>
-                        <p class="small">Номер счета KZ768562203325368617</p>
-                        <p class="small">Республика Казахстан, 030005, Актюбинская область,<br> Актобе г.а., г. Актобе, район Астана, проспект Абидкайыр Хана, дом 2</p>
-                        <p class="small"><a class="color-gray hover-opacity" href="policy.html" target="_blank">Политика конфиденциальности</a></p>
-                        <p class="small">© <script>document.write(new Date().getFullYear())</script> rosinvest.kz. Все права защищены.
-                        </p>
+            <div class="footer-body">
+                <div class="row">
+                    <div class="col-lg-50">
+                        <div class="footer-text">
+                            <p class="h6">Товарищество с ограниченной ответственностью «РосИнвест»</p>
+                            <p>Принимаем оплату в российских рублях (RUB), казахстанских тенге (KZT) или долларах США (USD)</p>
+                            <p>Банк АО "Банк ЦентрКредит"<br> БИК KCJBKZKX</p>
+                            <p><strong>Валюта KZT</strong><br> Номер счета KZ118562203125368494</p>
+                            <p><strong>Валюта RUB</strong><br> Номер счета KZ768562203325368617</p>
+                            <p>Республика Казахстан, 030005, Актюбинская область,<br> Актобе г.а., г. Актобе, район Астана, проспект Абидкайыр Хана, дом 2</p>
+                            <p><a href="policy.html" target="_blank">Политика конфиденциальности</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-50">
+                        <div class="footer-contacts">
+                            <div class="footer-contacts-wrapper">
+                                <div>
+                                    <a href="tel:+77081252483" class="footer-contacts__link link-phone">+7 (708) 125-24-83</a>
+                                </div>
+                                <div>
+                                    <a href="mailto:kaz20092022@mail.ru" class="footer-contacts__link link-email">kaz20092022@mail.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-lang">
+                            <div class="footer-lang-wrapper">
+                                <a href="#" class="footer-lang__link link-ru current">RU</a>
+                                <a href="#" class="footer-lang__link link-en">EN</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="footer-copyright">
+                <div>© 2022, ТОО «РосИнвест», все права защищены.</div>
             </div>
         </div>
     </footer>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="modules/swiper/swiper-bundle.min.js"></script>
+    <script src="modules/fancybox/fancybox.umd.js"></script>
+    <script src="app.js"></script>
 
 </body>
 
