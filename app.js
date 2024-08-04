@@ -6,7 +6,6 @@ const heroSwiper = new Swiper('.heroSwiper', {
         delay: 2500,
         disableOnInteraction: false,
     },
-    // effect: 'fade',
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -17,6 +16,7 @@ const heroSwiper = new Swiper('.heroSwiper', {
     },
 });
 
+// partnersSwiper
 const partnersSwiper = new Swiper('.partnersSwiper', {
     slidesPerView: 2,
     spaceBetween: 32,
